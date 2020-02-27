@@ -1,19 +1,24 @@
 {
-  "name": "valerasamoylov.github.io",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Portfolio Valeriy Samoilov",
+  "description": "Portfolio of Valeriy Samoilov",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valerasamoylov/valerasamoylov.github.io"
   },
-  "keywords": [],
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "javascript"
+  ],
   "author": "@valerasamoylov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/valerasamoylov/valerasamoylov.github.io/issues"
   },
-  "homepage": "valerasamoylov.github.io",
+  "homepage": "https://github.com/valerasamoylov/valerasamoylov.github.io",
   "devDependencies": {
     "autoprefixer": "^9.7.0",
     "cssnano": "^4.1.10",
@@ -26,6 +31,7 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "@popperjs/core": "^2.0.6",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1"
