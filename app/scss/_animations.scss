@@ -1,0 +1,59 @@
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin animation-name($animation-name) {
+  -webkit-animation-name: $animation-name;
+  -moz-animation-name: $animation-name;
+  -o-animation-name: $animation-name;
+  animation-name: $animation-name;
+}
+
+@mixin animation-fill-mode($paramethr) {
+  animation-fill-mode: $paramethr;
+  -webkit-animation-fill-mode: $paramethr;
+  -moz-animation-fill-mode: $paramethr;
+  -o-animation-fill-mode: $paramethr;
+}
+@mixin animation-duration($duration-time) {
+  -webkit-animation-duration: $duration-time;
+  -moz-animation-duration: $duration-time;
+  -o-animation-duration: $duration-time;
+  animation-duration: $duration-time;
+}
+
+@mixin animation-delay($delay-time) {
+  -webkit-animation-delay: $delay-time;
+  -moz-animation-delay: $delay-time;
+  animation-delay: $delay-time;
+}
+
+@include keyframes(fadeInLeft) {
+  from {
+    opacity: 0;
+    @include transform(translatex(-10px));
+  }
+  to {
+    opacity: 1;
+    @include transform(translatex(0));
+  }
+}

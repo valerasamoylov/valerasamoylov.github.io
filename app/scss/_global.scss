@@ -8,7 +8,6 @@ body,
   margin: 0;
   font-family: "Roboto";
 }
-
 .header {
   nav {
     padding: 1.5em 1.5em;
@@ -146,6 +145,13 @@ body,
 .col-sm-6 {
   width: 50%;
   float: left;
+}
+
+.content {
+  @include animation-name(fadeInLeft);
+  @include animation-fill-mode(both);
+  @include animation-duration($duration-time);
+  @include animation-delay($delay-time);
 }
 
 .footer {
