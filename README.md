@@ -4,3 +4,12 @@
 - Install [Node.js](https://nodejs.org/en/) if you don't have it yet.
 - Run `npm install`
 - Run `gulp` to run the default Gulp task
+
+---
+
+Welcome to my GitHub Pages!
+
+This GitHub page [https://valerasamoylov.github.io](https://valerasamoylov.github.io) intends to present my skills and services, show some examples of past projects and partial demonstrations of several web technologies that I enjoy using.
+
+
+Feel free to contact me through: [mailto:valerasam1012@gmail.com](valerasam1012@gmail.com), [https://github.com/valerasamoylov/valerasamoylov.github.io/blob/master/assets/CV.pdf](CV)
